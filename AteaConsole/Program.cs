@@ -17,8 +17,6 @@ namespace AteaConsole
         }
 
         private static void ReadResult(object sender, ResultArgs eventArgs)
-        {
-            Console.WriteLine(eventArgs.Result);
-        }
+                            =>Console.WriteLine(eventArgs.Result);        
     }
 }

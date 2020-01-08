@@ -47,8 +47,6 @@ namespace Atea.Test
         }
 
         private static void ReadResult(object sender, ResultArgs eventArgs)
-        {
-            _result = eventArgs.Result;
-        }
+        =>_result = eventArgs.Result;        
     }
 }
